@@ -65,7 +65,7 @@
     (mod_edge_width 0.3)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 10 3.2)
+    (pad_size 10 3.6)
     (pad_drill 10)
     (pad_to_mask_clearance 0.1016)
     (pad_to_paste_clearance -0.02)
@@ -364,6 +364,24 @@
     (uvia_drill 0.127)
   )
 
+  (module hole:PKRH (layer F.Cu) (tedit 5CD55788) (tstamp 5CBCACC9)
+    (at 190.20498 105.31875 90)
+    (path switch_mx3)
+    (attr virtual)
+    (fp_text reference HOLE (at 0.1753 5.7861 90) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad "" np_thru_hole oval (at 0.11875 0.29502 90) (size 8.8 3.6) (drill oval 8.8 3.6) (layers *.Cu *.Mask))
+    (model cherry_mx1.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (module mx1a:MX1A (layer F.Cu) (tedit 56CF6A34) (tstamp 5040E76F)
     (at 152.4 130.97002)
     (path /4F60E920/5040DECF)
@@ -418,7 +436,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBE0763) (tstamp 5CBE0730)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD557BF) (tstamp 5CBE0730)
     (at 200.01 123.38 90)
     (path switch_mx3)
     (attr virtual)
@@ -428,7 +446,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at -3.82 0 90) (size 10 3.2) (drill oval 10 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at -3.82 0 90) (size 10 3.6) (drill oval 10 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -700,7 +718,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBCB066) (tstamp 5CBDEBBE)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD556E4) (tstamp 5CBDEBBE)
     (at 195 80.3 90)
     (path switch_mx3)
     (attr virtual)
@@ -710,7 +728,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0.11875 0.25752 90) (size 9 3.2) (drill oval 9 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0.11875 0.25752 90) (size 9 3.6) (drill oval 9 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -718,7 +736,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CD510B1) (tstamp 5CBDEB9D)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD55742) (tstamp 5CBDEB9D)
     (at 185.60498 95 90)
     (path switch_mx3)
     (attr virtual)
@@ -728,7 +746,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0.11875 0.13252 90) (size 10 3.2) (drill oval 10 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0.11875 0.13252 90) (size 10 3.6) (drill oval 10 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -736,7 +754,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBDED4D) (tstamp 5CBDEB60)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD557C7) (tstamp 5CBDEB60)
     (at 200 136.8 90)
     (path switch_mx3)
     (attr virtual)
@@ -746,7 +764,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0 0 90) (size 4 3.2) (drill oval 4 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0 0 90) (size 4 3.6) (drill oval 4 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -925,7 +943,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBCB793) (tstamp 5CBCB7AD)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD557D0) (tstamp 5CBCB7AD)
     (at 200 146.8 90)
     (path switch_mx3)
     (attr virtual)
@@ -935,7 +953,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0 0 90) (size 10 3.2) (drill oval 10 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0 0 90) (size 10 3.6) (drill oval 10 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -943,7 +961,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBCB793) (tstamp 5CBCB760)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD557D8) (tstamp 5CBCB760)
     (at 200.025 155.2 90)
     (path switch_mx3)
     (attr virtual)
@@ -953,7 +971,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0 0 90) (size 10 3.2) (drill oval 10 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0 0 90) (size 10 3.6) (drill oval 10 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1015,7 +1033,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBCB626) (tstamp 5CBCB553)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD557B4) (tstamp 5CBCB553)
     (at 200.025 123.4 90)
     (path switch_mx3)
     (attr virtual)
@@ -1025,7 +1043,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0 0 90) (size 6 3.2) (drill oval 6 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0 0 90) (size 6 3.6) (drill oval 6 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1141,7 +1159,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBCB066) (tstamp 5CBCAD77)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD556DC) (tstamp 5CBCAD77)
     (at 195.00498 67.31875 90)
     (path switch_mx3)
     (attr virtual)
@@ -1151,7 +1169,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0.11875 0.25752 90) (size 9 3.2) (drill oval 9 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0.11875 0.25752 90) (size 9 3.6) (drill oval 9 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1159,7 +1177,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBD26E3) (tstamp 5CBCAD3F)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD556FE) (tstamp 5CBCAD3F)
     (at 185.60498 84.61875 90)
     (path switch_mx3)
     (attr virtual)
@@ -1169,7 +1187,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0.11875 0.13252 90) (size 5.5 3.2) (drill oval 5.5 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0.11875 0.13252 90) (size 5.5 3.6) (drill oval 5.5 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1177,7 +1195,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBD26C7) (tstamp 5CBCACF6)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD5574E) (tstamp 5CBCACF6)
     (at 185.60498 100.51875 90)
     (path switch_mx3)
     (attr virtual)
@@ -1187,7 +1205,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0.11875 0.13252 90) (size 6.5 3.2) (drill oval 6.5 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0.11875 0.13252 90) (size 6.5 3.6) (drill oval 6.5 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1195,7 +1213,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBD26B3) (tstamp 5CBCACD2)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD55793) (tstamp 5CBCACD2)
     (at 190.40498 118.6 90)
     (path switch_mx3)
     (attr virtual)
@@ -1205,7 +1223,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0.11875 0.09502 90) (size 9 3.2) (drill oval 9 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0.11875 0.09502 90) (size 9 3.6) (drill oval 9 3.6) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1213,25 +1231,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBD26D1) (tstamp 5CBCACC9)
-    (at 190.20498 105.31875 90)
-    (path switch_mx3)
-    (attr virtual)
-    (fp_text reference HOLE (at 0.1753 5.7861 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value VAL** (at 0.17526 -4.9022 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad "" np_thru_hole oval (at 0.11875 0.29502 90) (size 8.8 3.2) (drill oval 8.8 3.2) (layers *.Cu *.Mask))
-    (model cherry_mx1.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module hole:PKRH (layer F.Cu) (tedit 5CBD26BA) (tstamp 5CBCAA3E)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD5579D) (tstamp 5CBCAA3E)
     (at 193.68125 121.20498)
     (path switch_mx3)
     (attr virtual)
@@ -1241,7 +1241,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 1.58125 0.24004) (size 12.525 3.8) (drill oval 12.525 3.8) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 1.58125 0.24004) (size 12.525 4) (drill oval 12.525 4) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1249,7 +1249,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBD26D9) (tstamp 5CBCA912)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD5575B) (tstamp 5CBCA912)
     (at 188 102.2)
     (path switch_mx3)
     (attr virtual)
@@ -1259,7 +1259,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0.11875 0.19502) (size 7.7625 3.8) (drill oval 7.7625 3.8) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0.11875 0.19502) (size 7.7625 4) (drill oval 7.7625 4) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1267,7 +1267,7 @@
     )
   )
 
-  (module hole:PKRH (layer F.Cu) (tedit 5CBD26ED) (tstamp 5CBCA76A)
+  (module hole:PKRH (layer F.Cu) (tedit 5CD556F3) (tstamp 5CBCA76A)
     (at 190.5 83.34502)
     (path switch_mx3)
     (attr virtual)
@@ -1277,7 +1277,7 @@
     (fp_text value VAL** (at 0.17526 -4.9022) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" np_thru_hole oval (at 0 0) (size 12.525 3.8) (drill oval 12.525 3.8) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole oval (at 0 0) (size 12.525 4) (drill oval 12.525 4) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
