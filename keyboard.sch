@@ -100,6 +100,7 @@ LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
 LIBS:teensy
+LIBS:keyboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
