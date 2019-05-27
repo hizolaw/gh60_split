@@ -9,6 +9,7 @@ ignore_labels = [
     r"HOLE",
     r"REF",
     r"\"R[0-9]\"",
+    r"\"R\"",
 ]
 
 def regexs_in_line(regexs, line):
