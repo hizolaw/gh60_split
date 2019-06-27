@@ -183,7 +183,7 @@ F 1 "SW_PUSH" H 3650 2270 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_EVPBF" H 3650 2350 60  0001 C CNN
 F 3 "" H 3650 2350 60  0001 C CNN
 	1    3650 2350
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L C C1
@@ -464,8 +464,6 @@ Wire Wire Line
 	3000 2750 4300 2750
 Connection ~ 3000 3150
 Wire Wire Line
-	3950 2350 4300 2350
-Wire Wire Line
 	4350 1450 4350 2350
 Wire Wire Line
 	4350 2350 4250 2350
@@ -673,4 +671,6 @@ Wire Wire Line
 	5000 1100 5950 1100
 Wire Wire Line
 	5950 1100 5950 1400
+Wire Wire Line
+	3950 2350 4300 2350
 $EndSCHEMATC
