@@ -127,21 +127,6 @@ F 3 "" H 5300 4050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_2 J1
-U 1 1 5C6D870C
-P 2950 4950
-F 0 "J1" H 2875 5200 60  0000 C CNN
-F 1 "USB_2" H 3000 4650 60  0001 C CNN
-F 2 "usb:67503" H 2950 4950 60  0001 C CNN
-F 3 "" H 2950 4950 60  0001 C CNN
-F 4 "VCC" H 3275 5100 50  0001 C CNN "VCC"
-F 5 "D+" H 3250 5000 50  0001 C CNN "Data+"
-F 6 "D-" H 3250 4900 50  0001 C CNN "Data-"
-F 7 "GND" H 3275 4800 50  0001 C CNN "Ground"
-	1    2950 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L ASX4 X1
 U 1 1 5C6D87AD
 P 3550 3150
@@ -374,32 +359,21 @@ F 3 "" H 5250 1700 60  0001 C CNN
 $EndComp
 NoConn ~ 4300 4250
 $Comp
-L VCC #PWR014
-U 1 1 5C6DA1FE
-P 3150 4350
-F 0 "#PWR014" H 3150 4450 30  0001 C CNN
-F 1 "VCC" H 3150 4450 30  0000 C CNN
-F 2 "" H 3150 4350 60  0001 C CNN
-F 3 "" H 3150 4350 60  0001 C CNN
-	1    3150 4350
+L GND #PWR014
+U 1 1 5C6DA234
+P 1750 5400
+F 0 "#PWR014" H 1750 5400 30  0001 C CNN
+F 1 "GND" H 1750 5330 30  0001 C CNN
+F 2 "" H 1750 5400 60  0001 C CNN
+F 3 "" H 1750 5400 60  0001 C CNN
+	1    1750 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR015
-U 1 1 5C6DA234
-P 3150 5400
-F 0 "#PWR015" H 3150 5400 30  0001 C CNN
-F 1 "GND" H 3150 5330 30  0001 C CNN
-F 2 "" H 3150 5400 60  0001 C CNN
-F 3 "" H 3150 5400 60  0001 C CNN
-	1    3150 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR016
 U 1 1 5C6DA48F
 P 3800 5900
-F 0 "#PWR016" H 3800 5900 30  0001 C CNN
+F 0 "#PWR015" H 3800 5900 30  0001 C CNN
 F 1 "GND" H 3800 5830 30  0001 C CNN
 F 2 "" H 3800 5900 60  0001 C CNN
 F 3 "" H 3800 5900 60  0001 C CNN
@@ -407,10 +381,10 @@ F 3 "" H 3800 5900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND #PWR016
 U 1 1 5C6DA811
 P 7300 4700
-F 0 "#PWR017" H 7300 4700 30  0001 C CNN
+F 0 "#PWR016" H 7300 4700 30  0001 C CNN
 F 1 "GND" H 7300 4630 30  0001 C CNN
 F 2 "" H 7300 4700 60  0001 C CNN
 F 3 "" H 7300 4700 60  0001 C CNN
@@ -418,10 +392,10 @@ F 3 "" H 7300 4700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR018
+L GND #PWR017
 U 1 1 5C6DAA6F
 P 6100 1600
-F 0 "#PWR018" H 6100 1600 30  0001 C CNN
+F 0 "#PWR017" H 6100 1600 30  0001 C CNN
 F 1 "GND" H 6100 1530 30  0001 C CNN
 F 2 "" H 6100 1600 60  0001 C CNN
 F 3 "" H 6100 1600 60  0001 C CNN
@@ -429,14 +403,163 @@ F 3 "" H 6100 1600 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR019
+L VCC #PWR018
 U 1 1 5C6DAB13
 P 6100 1500
-F 0 "#PWR019" H 6100 1600 30  0001 C CNN
+F 0 "#PWR018" H 6100 1600 30  0001 C CNN
 F 1 "VCC" H 6100 1600 30  0000 C CNN
 F 2 "" H 6100 1500 60  0001 C CNN
 F 3 "" H 6100 1500 60  0001 C CNN
 	1    6100 1500
+	0    1    1    0   
+$EndComp
+Text HLabel 7850 2600 2    60   BiDi ~ 0
+col9
+Text HLabel 7850 2700 2    60   BiDi ~ 0
+col6
+Text HLabel 7850 2800 2    60   BiDi ~ 0
+col10
+Text HLabel 7850 2900 2    60   BiDi ~ 0
+col11
+Text HLabel 7850 3000 2    60   BiDi ~ 0
+col14
+Text HLabel 7850 3100 2    60   BiDi ~ 0
+caps_led
+Text HLabel 7850 3200 2    60   BiDi ~ 0
+col8
+Text HLabel 7850 3300 2    60   BiDi ~ 0
+GPIO4
+Text HLabel 7850 3500 2    60   BiDi ~ 0
+col4
+Text HLabel 7850 3600 2    60   BiDi ~ 0
+col5
+Text HLabel 7850 3800 2    60   BiDi ~ 0
+col12
+Text HLabel 7850 3900 2    60   BiDi ~ 0
+col13
+Text HLabel 7850 4000 2    60   BiDi ~ 0
+row5
+Text HLabel 7850 4100 2    60   BiDi ~ 0
+col7
+Text HLabel 7850 4200 2    60   BiDi ~ 0
+row4
+Text HLabel 7850 4300 2    60   BiDi ~ 0
+row3
+Text HLabel 7850 4400 2    60   BiDi ~ 0
+row2
+Text HLabel 7850 4500 2    60   BiDi ~ 0
+row1
+Text HLabel 7850 4800 2    60   BiDi ~ 0
+col3
+Text HLabel 7850 5000 2    60   BiDi ~ 0
+GPIO0
+Text HLabel 7850 5100 2    60   BiDi ~ 0
+GPIO1
+Text HLabel 7850 5200 2    60   BiDi ~ 0
+GPIO2
+Text HLabel 7850 5300 2    60   BiDi ~ 0
+GPIO3
+Text HLabel 7850 5400 2    60   BiDi ~ 0
+col2
+Text HLabel 7850 5500 2    60   BiDi ~ 0
+col1
+$Comp
+L GND #PWR019
+U 1 1 5C6F618A
+P 3200 2350
+F 0 "#PWR019" H 3200 2350 30  0001 C CNN
+F 1 "GND" H 3200 2280 30  0001 C CNN
+F 2 "" H 3200 2350 60  0001 C CNN
+F 3 "" H 3200 2350 60  0001 C CNN
+	1    3200 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L USBLC6-2SC6 U1
+U 1 1 5D20E149
+P 2650 4950
+F 0 "U1" H 2400 5300 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 2650 4600 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 3300 5300 50  0001 C CNN
+F 3 "" H 2400 5300 50  0001 C CNN
+	1    2650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 5D20E589
+P 3500 4450
+F 0 "F1" H 3600 4500 40  0000 C CNN
+F 1 "FUSE" H 3400 4400 40  0000 C CNN
+F 2 "Capacitors_SMD:C_1206" H 3500 4450 60  0001 C CNN
+F 3 "" H 3500 4450 60  0001 C CNN
+	1    3500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR020
+U 1 1 5D20EBD8
+P 3750 4300
+F 0 "#PWR020" H 3750 4400 30  0001 C CNN
+F 1 "VCC" H 3750 4400 30  0000 C CNN
+F 2 "" H 3750 4300 60  0001 C CNN
+F 3 "" H 3750 4300 60  0001 C CNN
+	1    3750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L USBTYPEC J1
+U 1 1 5D21455E
+P 1250 5100
+F 0 "J1" H 1150 5950 60  0000 C CNN
+F 1 "USBTYPEC" H 1250 4250 60  0001 C CNN
+F 2 "usb:USB_C_Receptacle_Palconn_UTC16-G" H 1250 5650 60  0001 C CNN
+F 3 "" H 1250 5650 60  0001 C CNN
+	1    1250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 5D2148F3
+P 1600 4100
+F 0 "#PWR021" H 1600 4100 30  0001 C CNN
+F 1 "GND" H 1600 4030 30  0001 C CNN
+F 2 "" H 1600 4100 60  0001 C CNN
+F 3 "" H 1600 4100 60  0001 C CNN
+	1    1600 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 5D214A0B
+P 1600 6000
+F 0 "#PWR022" H 1600 6000 30  0001 C CNN
+F 1 "GND" H 1600 5930 30  0001 C CNN
+F 2 "" H 1600 6000 60  0001 C CNN
+F 3 "" H 1600 6000 60  0001 C CNN
+	1    1600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5D215326
+P 1850 4550
+F 0 "R1" V 1930 4550 50  0000 C CNN
+F 1 "5.1k" V 1850 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 1850 4550 60  0001 C CNN
+F 3 "" H 1850 4550 60  0001 C CNN
+	1    1850 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5D215386
+P 1850 4700
+F 0 "R2" V 1930 4700 50  0000 C CNN
+F 1 "5.1k" V 1850 4700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 1850 4700 60  0001 C CNN
+F 3 "" H 1850 4700 60  0001 C CNN
+	1    1850 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -464,9 +587,9 @@ Wire Wire Line
 	3000 2750 4300 2750
 Connection ~ 3000 3150
 Wire Wire Line
-	4350 1450 4350 2350
+	4350 2350 4350 1450
 Wire Wire Line
-	4350 2350 4250 2350
+	3950 2350 4350 2350
 Connection ~ 4250 2350
 Wire Wire Line
 	4350 800  4350 950 
@@ -496,20 +619,13 @@ Wire Wire Line
 Wire Wire Line
 	4300 5000 3850 5000
 Wire Wire Line
-	3350 4900 3150 4900
+	1650 4900 1950 4900
 Wire Wire Line
-	3150 5000 3350 5000
-Wire Wire Line
-	3150 5100 3150 5400
-Wire Wire Line
-	3150 4350 3150 4800
+	1550 5000 1950 5000
 Wire Wire Line
 	4300 5200 4150 5200
 Wire Wire Line
 	4150 5200 4150 4700
-Wire Wire Line
-	3150 4700 4300 4700
-Connection ~ 3150 4700
 Connection ~ 4150 4700
 Wire Wire Line
 	4300 5300 3800 5300
@@ -598,67 +714,6 @@ Wire Wire Line
 	6300 5400 7850 5400
 Wire Wire Line
 	6300 5500 7850 5500
-Text HLabel 7850 2600 2    60   BiDi ~ 0
-col9
-Text HLabel 7850 2700 2    60   BiDi ~ 0
-col6
-Text HLabel 7850 2800 2    60   BiDi ~ 0
-col10
-Text HLabel 7850 2900 2    60   BiDi ~ 0
-col11
-Text HLabel 7850 3000 2    60   BiDi ~ 0
-col14
-Text HLabel 7850 3100 2    60   BiDi ~ 0
-caps_led
-Text HLabel 7850 3200 2    60   BiDi ~ 0
-col8
-Text HLabel 7850 3300 2    60   BiDi ~ 0
-GPIO4
-Text HLabel 7850 3500 2    60   BiDi ~ 0
-col4
-Text HLabel 7850 3600 2    60   BiDi ~ 0
-col5
-Text HLabel 7850 3800 2    60   BiDi ~ 0
-col12
-Text HLabel 7850 3900 2    60   BiDi ~ 0
-col13
-Text HLabel 7850 4000 2    60   BiDi ~ 0
-row5
-Text HLabel 7850 4100 2    60   BiDi ~ 0
-col7
-Text HLabel 7850 4200 2    60   BiDi ~ 0
-row4
-Text HLabel 7850 4300 2    60   BiDi ~ 0
-row3
-Text HLabel 7850 4400 2    60   BiDi ~ 0
-row2
-Text HLabel 7850 4500 2    60   BiDi ~ 0
-row1
-Text HLabel 7850 4800 2    60   BiDi ~ 0
-col3
-Text HLabel 7850 5000 2    60   BiDi ~ 0
-GPIO0
-Text HLabel 7850 5100 2    60   BiDi ~ 0
-GPIO1
-Text HLabel 7850 5200 2    60   BiDi ~ 0
-GPIO2
-Text HLabel 7850 5300 2    60   BiDi ~ 0
-GPIO3
-Text HLabel 7850 5400 2    60   BiDi ~ 0
-col2
-Text HLabel 7850 5500 2    60   BiDi ~ 0
-col1
-$Comp
-L GND #PWR020
-U 1 1 5C6F618A
-P 3200 2350
-F 0 "#PWR020" H 3200 2350 30  0001 C CNN
-F 1 "GND" H 3200 2280 30  0001 C CNN
-F 2 "" H 3200 2350 60  0001 C CNN
-F 3 "" H 3200 2350 60  0001 C CNN
-	1    3200 2350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3350 2350 3200 2350
 Wire Wire Line
@@ -672,5 +727,87 @@ Wire Wire Line
 Wire Wire Line
 	5950 1100 5950 1400
 Wire Wire Line
-	3950 2350 4300 2350
+	4250 2350 4300 2350
+Wire Wire Line
+	3250 4450 3250 5750
+Wire Wire Line
+	3250 4950 3150 4950
+Wire Wire Line
+	3150 4750 3350 4750
+Wire Wire Line
+	3350 4750 3350 4900
+Wire Wire Line
+	3350 5000 3350 5150
+Wire Wire Line
+	3350 5150 3150 5150
+Wire Wire Line
+	2150 4750 1950 4750
+Wire Wire Line
+	1950 4750 1950 4900
+Wire Wire Line
+	1950 5000 1950 5150
+Wire Wire Line
+	1950 5150 2150 5150
+Wire Wire Line
+	1450 4350 2100 4350
+Wire Wire Line
+	1600 4100 1600 4350
+Wire Wire Line
+	1450 5850 1600 5850
+Wire Wire Line
+	1600 5850 1600 6000
+Wire Wire Line
+	1450 4450 3250 4450
+Wire Wire Line
+	3250 5750 1450 5750
+Connection ~ 3250 4950
+Connection ~ 3250 4450
+Wire Wire Line
+	3750 4300 3750 4700
+Wire Wire Line
+	3750 4700 4300 4700
+Connection ~ 3750 4450
+Wire Wire Line
+	1450 4550 1600 4550
+Wire Wire Line
+	2100 4350 2100 4700
+Connection ~ 1600 4350
+Connection ~ 2100 4550
+Wire Wire Line
+	1600 4700 1600 5350
+Wire Wire Line
+	1600 5350 1450 5350
+Wire Wire Line
+	1450 5050 1450 5150
+Wire Wire Line
+	1450 5150 1750 5150
+Wire Wire Line
+	1550 4650 1550 5450
+Wire Wire Line
+	1550 4650 1450 4650
+Wire Wire Line
+	1550 5450 1450 5450
+Connection ~ 1550 5000
+Wire Wire Line
+	1650 5550 1450 5550
+Wire Wire Line
+	1650 4750 1650 5550
+Wire Wire Line
+	1650 4750 1450 4750
+Connection ~ 1650 4900
+Wire Wire Line
+	1750 4950 1750 5400
+Wire Wire Line
+	1750 4950 2150 4950
+Wire Wire Line
+	1450 4950 1500 4950
+Wire Wire Line
+	1500 4950 1500 5250
+Wire Wire Line
+	1450 5250 2150 5250
+Wire Wire Line
+	2150 5250 2150 4450
+Connection ~ 2150 4450
+Connection ~ 1500 5250
+Connection ~ 1750 5150
 $EndSCHEMATC
