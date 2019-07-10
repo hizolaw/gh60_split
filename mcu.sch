@@ -810,4 +810,23 @@ Wire Wire Line
 Connection ~ 2150 4450
 Connection ~ 1500 5250
 Connection ~ 1750 5150
+$Comp
+L C C15
+U 1 1 5D262763
+P 2550 4200
+F 0 "C15" H 2600 4300 50  0000 L CNN
+F 1 "100n" H 2600 4100 50  0000 L CNN
+F 2 "0805:0805C" H 2550 4200 60  0001 C CNN
+F 3 "" H 2550 4200 60  0001 C CNN
+	1    2550 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 4450 2900 4200
+Wire Wire Line
+	2900 4200 2750 4200
+Connection ~ 2900 4450
+Wire Wire Line
+	2350 4200 1600 4200
+Connection ~ 1600 4200
 $EndSCHEMATC
