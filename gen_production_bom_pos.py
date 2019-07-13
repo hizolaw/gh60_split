@@ -2,13 +2,12 @@
 import re
 
 ignore_labels = [
-    r"S[0-9]+",
+    r"S[0-9]{2,3}[,\"]",
     r"DW[0-9]+",
     r"P3",
     r"MXST",
     r"HOLE",
     r"REF",
-    r"\"R[0-9]\"",
     r"\"R\"",
 ]
 
