@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/acanal/Documents/code/pcb/gh60/keyboard.sch)
-    (date "Sun 21 Jul 2019 10:22:48 AM CST")
+    (date "Mon 15 Jul 2019 03:40:18 AM CST")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1584,7 +1584,7 @@
       (tstamp 5D290EE0))
     (comp (ref IC1)
       (value ATMEGA32U4)
-      (footprint tqfp:TQFP44)
+      (footprint Housings_DFN_QFN:QFN-44-1EP_7x7mm_Pitch0.5mm)
       (libsource (lib atmega32u4) (part ATMEGA32U4))
       (sheetpath (names /mcu/) (tstamps /5C6D863A/))
       (tstamp 5C6D86CD))
